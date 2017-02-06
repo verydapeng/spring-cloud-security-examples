@@ -1,0 +1,10 @@
+security:
+  oauth2:
+    client:
+      client-secret: acmesecret
+      client-id: acme
+    resource:
+      token-info-uri: http://localhost:8080/uaa/oauth/check_token
+
+server:
+  port: 9000

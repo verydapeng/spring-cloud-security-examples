@@ -1,0 +1,17 @@
+security:
+  oauth2:
+    client:
+      client-secret: acmesecret
+      client-id: acme
+      user-authorization-uri: http://localhost:8080/uaa/oauth/authorize
+      scope: openid
+      clientAuthenticationScheme: header
+      access-token-uri: http://localhost:8080/uaa/oauth/token
+  basic:
+    enabled: false
+
+
+server:
+  port: 9001
+  context-path: /client
+
