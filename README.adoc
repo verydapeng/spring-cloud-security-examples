@@ -1,0 +1,18 @@
+= Run 
+
+== Start the apps
+[source]
+----
+mvn spring-boot:run -f auth-server 
+mvn spring-boot:run -f client
+mvn spring-boot:run -f resource-server 
+----
+
+== Open Url 
+
+http://localhost:9001/client
+
+== Credentials
+
+- username: user
+- password: userpass 
